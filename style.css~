@@ -33,8 +33,7 @@ a {                  /* A stands for link, so this section is setting the defaul
 h1 {		     /* This styles the header at the top of the page */
 	font: bold 2.1em Arial, Arial, Sans-Serif;
 	text-align: left;
-	padding: 0;
-	color: #cc0000;
+	color: white;
 }
 
 h2 {		     /* This styles the headers within the page */
@@ -66,14 +65,15 @@ div.section {
 }
 
 /* This alters the appearance of the div with id="signup". */
-#signup {
-	background: #white;
+#poem {
+	height: 100px;
+	background: white;
 	text-align: center;
 }
 
 /* This alters the appearance of the div with id="whoweare" */
 #whoweare {
-	background: #e8f8f8;
+	background: white;
 	color: black; 
 }
 
@@ -81,7 +81,7 @@ div.section {
 .minileft {
 	float: left;
 	height: 100%;
-	margin-top: 1.5em;
+	margin-bottom:1.5em;
 	margin-right: 1em;
 }
 
