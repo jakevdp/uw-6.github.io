@@ -10,6 +10,9 @@
 
 */
 
+/* Imports the font that is used on this page. */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700);
+
 
 /* This section sets the defaults for the page, but you may never see changes here if they are overwritten by the div elements below.  */
 html, body {
@@ -31,13 +34,13 @@ a {                  /* A stands for link, so this section is setting the defaul
 }
 
 h1 {		     /* This styles the header at the top of the page */
-	font: bold 2.1em Arial, Arial, Sans-Serif;
+	font: bold 2.1em 'Source Sans Pro',Arial, Sans-Serif;
 	text-align: left;
 	color: white;
 }
 
 h2 {		     /* This styles the headers within the page */
-	font: bold 1.1em Arial, Arial, Sans-Serif;
+	font: bold 1.1em 'Source Sans Pro',Arial, Sans-Serif;
 	padding: 0;
 	margin: 0;
 }
@@ -53,9 +56,9 @@ div.section {
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
 #plan, #more {
-	background: #d21034;
+	background: #FF9900;
 	color: black;
-	font: Arial, Arial, Sans-Serif;
+	font: 'Source Sans Pro',Arial, Sans-Serif;
 	background-image: none;  /* replace none with url('image-url') to set a background image  */
 }
 
