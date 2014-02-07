@@ -29,7 +29,7 @@ body{
 }
 
 a {                  /* A stands for link, so this section is setting the default characteristics of links. */
-	color: #0000cc;
+	color: #C41E3A;
 	text-decoration: none;
 }
 
@@ -56,15 +56,15 @@ div.section {
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
 #plan, #more {
-	background: #FF9900;
-	color: black;
+	background:#000080;
+	color: white;
 	font: 'Source Sans Pro',Arial, Sans-Serif;
 	background-image: none;  /* replace none with url('image-url') to set a background image  */
 }
 
 /* You can alter the links within a div with the following syntax */
 #plan a {
-	color: #0000cc;
+	color: #C41E3A;
 }
 
 /* This alters the appearance of the div with id="signup". */
